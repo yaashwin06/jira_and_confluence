@@ -359,12 +359,4 @@ EXPECTED_FIELDS = {
 
 ---
 
-## License
 
-This script is provided as-is for automation purposes. Modify as needed for your organization's requirements.
-
----
-
-**Version:** 1.1  
-**Compatible with:** Jira Cloud (company-managed projects)  
-**Last Updated:** December 2025
