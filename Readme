@@ -1,412 +1,126 @@
-<!-- # Jira Project Generator - Company-Managed Projects
+# Jira Project Generator — Company-Managed Projects
 
-A Python automation tool that creates fully structured Jira company-managed projects with Epics, Stories, and project-specific custom fields.
+A Python automation tool that creates fully structured Jira **company-managed projects** with Epics, Stories, and project-specific custom fields.
 
-## What It Does
+All Jira credentials (URL, email, API token) are collected **interactively** with no configuration files required. API tokens are hidden using secure input.
 
-This script automates the creation of Jira projects with:
+---
 
-- **Company-managed projects** (Kanban, Scrum, or Bug Tracking templates)
-- **Pre-defined project structure** with Epics and Stories for migration projects
-- **Custom fields** scoped specifically to your project:
-  - % Complete
-  - Target Start Date
-  - Target End Date
-  - Owning (User picker)
-- **Automatic linking** of Stories to their parent Epics
-- **Smart field scoping** ensures custom fields only appear in the created project
+## Table of Contents
+
+- [Features](#features)
+- [Project Structure Created](#project-structure-created)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Custom Fields Created](#custom-fields-created)
+- [Example Output](#example-output)
+- [Customization](#customization)
+- [Security Notes](#security-notes)
+- [Troubleshooting](#troubleshooting)
+- [Limitations](#limitations)
+- [Support](#support)
+- [License](#license)
+
+---
+
+## Features
+
+### Company-Managed Project Creation
+
+Templates supported:
+- Kanban
+- Scrum
+- Bug Tracking
+
+### Full Project Structure Generation
+
+Automatically creates:
+- **5 Epics**
+- **51 Stories**
+- Story-to-Epic linking
+- Custom fields populated for each issue
+
+### Project-Scoped Custom Fields
+
+Four custom fields visible only in your project:
+- **% Complete** (Text field)
+- **Target Start Date** (Date)
+- **Target End Date** (Date)
+- **Owning** (User picker)
+
+### Automatic Field Configuration
+
+- Fields created automatically
+- Scoped to your project only
+- Added to screens
+- Populated with default values
+
+---
 
 ## Project Structure Created
 
-The script generates a complete migration project structure with 5 main Epics:
-
-1. **ASSESSMENT & PLANNING** (36 stories)
-2. **TEST MIGRATION** (8 stories)
-3. **USER ACCEPTANCE TESTING** (4 stories)
-4. **PRODUCTION MIGRATION** (2 stories)
-5. **POST MIGRATION SUPPORT** (1 story)
-
-Total: **5 Epics** and **51 Stories** with custom field values pre-populated.
-
-## Prerequisites
-
-### 1. Python Version
-- Python 3.7 or higher
-
-### 2. Required Packages
-
-Install the required Python packages:
-
-```bash
-pip install requests python-dotenv
-```
-
-
-### 3. Jira API Token
-
-You need a Jira API token to authenticate:
-
-1. Go to [Atlassian API Tokens](https://id.atlassian.com/manage-profile/security/api-tokens)
-2. Click **Create API token**
-3. Give it a name (e.g., "Jira Project Generator")
-4. Copy the generated token
-
-### 4. Jira Permissions
-
-Your Jira account must have:
-- Permission to create projects
-- Permission to create custom fields
-- Project administrator access
-
-## Installation
-
-1. **Download the script:**
-   ```bash
-   # Save the script as jira_project_generator.py
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install requests python-dotenv
-   ```
-
-3. **Create configuration file:**
-
-   The script will automatically create a `.env` template file on first run, or you can create it manually:
-
-   ```bash
-   touch .env
-   ```
-
-4. **Configure credentials:**
-
-   Edit the `.env` file with your Jira details:
-
-   ```env
-   # Jira Configuration
-   JIRA_BASE_URL=https://your-domain.atlassian.net
-   JIRA_EMAIL=your-email@example.com
-   JIRA_API_TOKEN=your_api_token_here
-   ```
-
-   **Replace:**
-   - `your-domain` with your actual Jira domain
-   - `your-email@example.com` with your Jira account email
-   - `your_api_token_here` with your API token from step 3
-
-## Usage
-
-### Running the Script
-
-```bash
-python jira_project_generator.py
-```
-
-### Interactive Prompts
-
-The script will guide you through the setup:
-
-#### 1. **Project Name**
-```
-Enter Project Name: My Migration Project
-```
-
-#### 2. **Project Key**
-```
-Enter Project Key (suggested: MMPR): MMPR
-```
-- Must be 2-10 uppercase letters/numbers
-- Must start with a letter
-- Must be unique across your Jira instance
-
-#### 3. **Template Selection**
-```
-SELECT PROJECT TEMPLATE (Company-managed)
-
-  1. Kanban
-  2. Scrum
-  3. Bug Tracking
-
-Choose template (1-3) [default: 2-Scrum]: 2
-```
-
-#### 4. **Review and Confirm**
-```
-SUMMARY
-
-  Project Name:  My Migration Project
-  Project Key:   MMPR
-  Template:      Scrum (Company-managed)
-  Epics:         5
-  Stories:       51
-  Custom Fields: 4 (scoped to this project)
-
-Proceed with creation? (y/N): y
-```
-
-### What Happens Next
-
-The script will:
-
-1. ✅ Test connection to Jira
-2. ✅ Create the company-managed project
-3. ✅ Create/configure 4 custom fields
-4. ✅ Scope custom fields to your project only
-5. ✅ Add custom fields to project screens
-6. ✅ Create 5 Epics
-7. ✅ Create 51 Stories linked to Epics
-8. ✅ Populate custom field values
-
-### Expected Output
-
-```
-🚀 JIRA COMPANY-MANAGED PROJECT GENERATOR
-   (Project-Specific Custom Fields)
-
-🔵 Testing connection to Jira...
-✅ Connected as: John Doe
-
-📋 PROJECT DETAILS
-...
-
-✅ Project 'My Migration Project' created successfully! Key: MMPR
-
-Setting up custom fields for project MMPR...
-
-🔵   Processing '% Complete'...
-✅   Created field '% Complete' → customfield_10050
-🔵     → Scoping to project MMPR...
-✅     → Scoped to project MMPR only
-
-... (continues for all fields)
-
-Generating project structure for MMPR...
-
-✅ [1/5] Epic 'ASSESSMENT & PLANNING...' → MMPR-1
-✅   [1/51] Story 'Onboarding and Access...' → MMPR-2 → linked to Epic → 4 custom fields
-
-... (continues for all stories)
-
-✨ PROJECT GENERATION COMPLETE!
-
-🔗 View your project at:
-   https://your-domain.atlassian.net/projects/MMPR
-```
-
-## Custom Fields Created
-
-The script creates these custom fields scoped to your project:
-
-| Field Name | Type | Purpose |
-|------------|------|---------|
-| % Complete | Text Field | Track completion percentage |
-| Target Start Date | Date Picker | Set target start date |
-| Target End Date | Date Picker | Set target end date |
-| Owning | User Picker | Assign task owner |
-
-**Note:** These fields are scoped exclusively to your project and won't appear in other projects.
-
-## Troubleshooting
-
-### Error: "Connection failed"
-- Verify your `.env` credentials
-- Check if your Jira instance URL is correct
-- Ensure your API token is valid
-
-### Error: "Project key already exists"
-- Choose a different project key
-- Check existing projects at: `https://your-domain.atlassian.net/projects`
-
-### Error: "Failed to create field"
-- Verify you have admin permissions
-- Check if field names already exist globally
-- Review Jira field limits for your instance
-
-### Error: "Failed to create Epic/Story"
-- Check issue type scheme for your project
-- Verify Epic issue type is enabled
-- Review project permissions
-
-### Custom fields not appearing
-- Check project screens configuration
-- Verify field context is properly set
-- May need to manually add to screens if auto-config fails
-
-## Customization
-
-### Modifying the Project Structure
-
-Edit the `EPICS` dictionary in the script to customize your structure:
-
-```python
-EPICS = {
-    "Your Epic Name": [
-        "Story 1",
-        "Story 2",
-        "Story 3"
-    ],
-    "Another Epic": [
-        "Story A",
-        "Story B"
-    ]
-}
-```
-
-### Adding Custom Fields
-
-Edit the `EXPECTED_FIELDS` dictionary:
-
-```python
-EXPECTED_FIELDS = {
-    "your_field_key": {
-        "name": "Your Field Name",
-        "field_id": None,
-        "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
-        "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher",
-        "description": "Your field description"
-    }
-}
-```
-
-Common field types:
-- `textfield` - Single line text
-- `textarea` - Multi-line text
-- `datepicker` - Date field
-- `userpicker` - User selection
-- `select` - Dropdown list
-
-## Security Notes
-
-- **Never commit your `.env` file** to version control
-- Add `.env` to your `.gitignore` file
-- Rotate API tokens periodically
-- Use tokens with minimum required permissions
-
-## Limitations
-
-- Only works with company-managed projects
-- Creates a specific migration project structure
-- Custom field names are fixed (can be customized in code)
-- Requires admin-level permissions for custom fields
-- Maximum field context limitations apply per Jira instance
-
-## Support
-
-For issues with:
-- **The script**: Review error messages and check troubleshooting section
-- **Jira API**: Consult [Atlassian REST API documentation](https://developer.atlassian.com/cloud/jira/platform/rest/v3/)
-- **Permissions**: Contact your Jira administrator
-
-## License
-
-This script is provided as-is for automation purposes. Modify as needed for your organization's requirements.
-
----
-
-**Version:** 1.0  
-**Compatible with:** Jira Cloud (company-managed projects)  
-**Last Updated:** December 2025 -->
-
----
-
-# Jira Project Generator — Company-Managed Projects
-
-### *(Interactive Version — No `.env` Needed)*
-
-A Python automation tool that creates fully structured Jira **company-managed projects** with Epics, Stories, and project-specific custom fields — **all from a single command**, with no prior configuration files.
-All Jira credentials (URL, email, API token) are collected **interactively**, and **API tokens are hidden** using secure input.
-
----
-
-# 🚀 What This Tool Does
-
-This Python script automatically creates a complete Jira project with:
-
-### ✅ **Company-managed project creation**
-
-Templates supported:
-
-* Kanban
-* Scrum
-* Bug Tracking
-
-### ✅ **Full project structure generation**
-
-Automatically creates:
-
-* **5 Epics**
-* **51 Stories**
-* Story-to-Epic linking included
-* Custom fields populated for each issue
-
-### ✅ **4 Project-scoped custom fields**
-
-Only visible in this project:
-
-* **% Complete** (Text field)
-* **Target Start Date** (Date)
-* **Target End Date** (Date)
-* **Owning** (User picker)
-
-### ✅ **Automatic field configuration**
-
-* Fields created
-* Scoped to your project only
-* Added to screens
-* Populated with default values
-
-Everything is done automatically.
-
----
-
-# 📦 Project Structure Created
-
 The script generates 5 migration-related Epics:
 
-| Epic                        | Story Count |
-| --------------------------- | ----------- |
-| **ASSESSMENT & PLANNING**   | 36          |
-| **TEST MIGRATION**          | 8           |
-| **USER ACCEPTANCE TESTING** | 4           |
-| **PRODUCTION MIGRATION**    | 2           |
-| **POST MIGRATION SUPPORT**  | 1           |
+| Epic | Story Count |
+|------|-------------|
+| ASSESSMENT & PLANNING | 36 |
+| TEST MIGRATION | 8 |
+| USER ACCEPTANCE TESTING | 4 |
+| PRODUCTION MIGRATION | 2 |
+| POST MIGRATION SUPPORT | 1 |
 
 **Total:** 5 Epics + 51 Stories (all linked and initialized)
 
 ---
-### 1. Run the shellscipt filw
-chmod +x setup_and_run.sh
-./setup_and_run.sh
 
-### 2. Jira E-mail and Base URL
+## Prerequisites
 
-1. You can get it directly from the browser address bar — it's the part before any /jira, /projects, or /browse paths.
-2. Get Authorised E-mail
+### 1. Python Version
 
-### 3. Jira API Token
+Python 3.7 or higher is required.
 
-You need a Jira Cloud API token:
+### 2. Required Packages
 
-1. Visit the Atlassian API Token page
+```bash
+pip install requests
+```
+
+### 3. Jira Base URL and Email
+
+- **Base URL:** Found in your browser address bar (e.g., `https://your-domain.atlassian.net`)
+- **Email:** Your authorized Jira account email
+
+### 4. Jira API Token
+
+1. Visit the [Atlassian API Token page](https://id.atlassian.com/manage-profile/security/api-tokens)
 2. Click **Create API token**
 3. Copy the generated token
 
-### 4. Jira Permissions
+### 5. Jira Permissions
 
 Your account needs:
-
-* Project creation permissions
-* Custom field creation permissions
-* Admin/Global admin role highly recommended
+- Project creation permissions
+- Custom field creation permissions
+- Admin/Global admin role (recommended)
 
 ---
 
-# 📥 Installation
+## Installation
+
+### Option 1: Using Shell Script
+
+```bash
+chmod +x setup_and_run.sh
+./setup_and_run.sh
+```
+
+### Option 2: Manual Setup
 
 1. **Download the script**
 
    ```bash
-   # Save as jira_project_generator.py
+   # Save the file as jira_project_generator.py
    ```
 
 2. **Install dependencies**
@@ -415,47 +129,47 @@ Your account needs:
    pip install requests
    ```
 
-3. **No `.env` required**
-   All credentials are entered interactively at script startup.
+3. **Run the script**
+
+   ```bash
+   python jira_project_generator.py
+   ```
+
+> **Note:** No `.env` file is required. All credentials are entered interactively.
 
 ---
 
-# ▶️ Usage
+## Usage
 
-Run the script:
+### Step 1: Run the Script
 
 ```bash
 python jira_project_generator.py
 ```
 
-You will be asked for credentials:
+### Step 2: Enter Credentials
 
 ```
 Enter Jira Base URL (e.g., https://your-domain.atlassian.net):
 Enter Jira Email:
-Enter Jira API Token:  ***************
+Enter Jira API Token: ***************
 ```
 
-✔️ API token input is securely hidden
-✔️ No credentials stored locally
-✔️ No config file needed
+> API token input is securely hidden using `getpass`.
 
-You will then be asked for:
+### Step 3: Enter Project Details
 
-### 1. Project Name
-
+**Project Name:**
 ```
 Enter Project Name: My Migration Project
 ```
 
-### 2. Project Key
-
+**Project Key:**
 ```
-Enter Project Key (e.g., MMPR):
+Enter Project Key (e.g., MMPR): MMPR
 ```
 
-### 3. Template Selection
-
+**Template Selection:**
 ```
 SELECT PROJECT TEMPLATE (Company-managed)
 
@@ -466,7 +180,7 @@ SELECT PROJECT TEMPLATE (Company-managed)
 Choose template (1-3) [default: 2]: 2
 ```
 
-Finally, the summary is displayed:
+### Step 4: Confirm and Create
 
 ```
 SUMMARY
@@ -483,22 +197,23 @@ Proceed with creation? (y/N): y
 
 ---
 
-# 🔄 What the Script Does Internally
+## Custom Fields Created
 
-1. Connects to Jira using your provided credentials
-2. Creates the project
-3. Creates & scopes custom fields
-4. Adds fields to screens
-5. Creates Epics
-6. Creates all 51 Stories
-7. Links Stories → Epics
-8. Populates custom fields
+| Field Name | Type | Purpose |
+|------------|------|---------|
+| % Complete | Text | Track percentage completed |
+| Target Start Date | Date | Planned start date |
+| Target End Date | Date | Planned end date |
+| Owning | User Picker | Issue owner |
 
-Cleanly logs each step.
+Each field is:
+- Created automatically
+- Scoped only to your new project
+- Added to required screens
 
 ---
 
-# 📤 Example Output
+## Example Output
 
 ```
 🚀 JIRA PROJECT GENERATOR
@@ -523,30 +238,18 @@ Cleanly logs each step.
       ✔ Story 1/36 → MMPR-2
       ✔ Story 2/36 → MMPR-3
       ...
+
+✨ PROJECT GENERATION COMPLETE!
+
+🔗 View your project at:
+   https://your-domain.atlassian.net/projects/MMPR
 ```
 
 ---
 
-# 🧩 Custom Fields Created
+## Customization
 
-| Field Name            | Type        | Purpose                    |
-| --------------------- | ----------- | -------------------------- |
-| **% Complete**        | Text        | Track percentage completed |
-| **Target Start Date** | Date        | Planned start date         |
-| **Target End Date**   | Date        | Planned end date           |
-| **Owning**            | User Picker | Issue owner                |
-
-Each field:
-
-* Is **created automatically**
-* Is **scoped only to your new project**
-* Is **added to required screens**
-
----
-
-# 🧰 Customization
-
-### Modify Epics & Stories
+### Modify Epics and Stories
 
 Update the `EPICS` dictionary in the script:
 
@@ -555,94 +258,113 @@ EPICS = {
     "Epic Name": [
         "Story A",
         "Story B"
+    ],
+    "Another Epic": [
+        "Story C",
+        "Story D"
     ]
 }
 ```
 
-### Add your own custom fields
+### Add Custom Fields
 
 Modify the `EXPECTED_FIELDS` structure:
 
 ```python
-{
-  "your_field_key": {
-      "name": "Your Field Name",
-      "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
-      "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
-  }
+EXPECTED_FIELDS = {
+    "your_field_key": {
+        "name": "Your Field Name",
+        "field_id": None,
+        "type": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+        "searcherKey": "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher",
+        "description": "Your field description"
+    }
 }
 ```
 
----
+**Common field types:**
 
-# 🔐 Security Notes
-
-* API token input is **hidden** using `getpass`
-* No credentials stored anywhere
-* No `.env` or config files
-* Safe to run on shared environments
-* Rotate Jira API tokens regularly
-
----
-
-# ⚠️ Limitations
-
-* Only works with **company-managed** Jira projects
-* Requires admin or high-level permissions
-* Maximum number of custom fields per Jira instance may apply
-* Cannot modify team-managed projects
+| Type Key | Description |
+|----------|-------------|
+| `textfield` | Single line text |
+| `textarea` | Multi-line text |
+| `datepicker` | Date field |
+| `userpicker` | User selection |
+| `select` | Dropdown list |
 
 ---
 
-# 🆘 Troubleshooting
+## Security Notes
 
-### "Connection failed"
-
-* Wrong Jira URL
-* Invalid API token
-* Incorrect email
-* Network restrictions
-
-### "Project key already exists"
-
-* Use a different key
-* Check existing projects
-
-### Custom fields not visible
-
-* Check screens
-* Re-run script
-* Ensure field contexts are correctly applied
+- API token input is **hidden** using `getpass`
+- No credentials stored anywhere
+- No `.env` or config files required
+- Safe to run on shared environments
+- Rotate Jira API tokens regularly
 
 ---
 
-# 📚 Support
+## Troubleshooting
 
-* Script issues: Review console logs
-* Jira API issues:
-  Atlassian REST API Docs
-* Permission issues: Contact your Jira admin
+### Connection Failed
+
+**Possible causes:**
+- Wrong Jira URL
+- Invalid API token
+- Incorrect email
+- Network restrictions
+
+**Solution:** Verify all credentials and network access.
+
+### Project Key Already Exists
+
+**Solution:** Use a different project key. Check existing projects at your Jira instance.
+
+### Custom Fields Not Visible
+
+**Possible causes:**
+- Screen configuration issues
+- Field contexts not applied correctly
+
+**Solution:** Check screens manually or re-run the script.
+
+### Failed to Create Epic/Story
+
+**Possible causes:**
+- Issue type scheme misconfiguration
+- Epic issue type not enabled
+- Permission issues
+
+**Solution:** Verify project permissions and issue type settings.
 
 ---
 
-# 📄 License
+## Limitations
 
-Provided as-is.
-Feel free to modify for your organization.
-
----
-
-### **Version:** 1.1
-
-### **Compatible with:** Jira Cloud (company-managed)
-
-### **Last Updated:** December 2025
+- Only works with **company-managed** Jira projects
+- Requires admin or high-level permissions
+- Maximum number of custom fields per Jira instance may apply
+- Cannot modify team-managed projects
+- Custom field names are fixed (customizable in code)
 
 ---
 
-If you want, I can also provide:
+## Support
 
-✅ A full updated Python script matching this README
-✅ A version with colorized CLI output
-✅ A version that retries automatically on errors
-Just ask!
+| Issue Type | Resource |
+|------------|----------|
+| Script issues | Review console logs and error messages |
+| Jira API issues | [Atlassian REST API Documentation](https://developer.atlassian.com/cloud/jira/platform/rest/v3/) |
+| Permission issues | Contact your Jira administrator |
+
+---
+
+## License
+
+This script is provided as-is for automation purposes. Modify as needed for your organization's requirements.
+
+---
+
+**Version:** 1.1  
+**Compatible with:** Jira Cloud (company-managed projects)  
+**Last Updated:** December 2025
