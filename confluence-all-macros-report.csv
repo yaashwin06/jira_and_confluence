@@ -1,0 +1,21 @@
+Category,Macro Name,Usage Count,Spaces Used In,Example Pages
+Content Macros,recently-updated,11,11,Overview; Tally Customer Knowledge; Tally KB; One Atlassian; Overview
+Content Macros,blog-posts,3,3,Overview; Employee Onboarding; Overview
+Formatting Macros,info,48,13,Tally Customer Knowledge; Tally Customer Knowledge; Corporate Planning; Goals Drafting Workshops; FY25 Annual Plan
+Formatting Macros,panel,39,15,Getting started in Confluence; Tally Customer Knowledge; How Do I Freeze or Unfreeze My Tally Card?; How Do I Freeze or Unfreeze My Tally Card?; How Do I Freeze or Unfreeze My Tally Card?
+Formatting Macros,tip,7,4,How Do I Send Money With Tally; Q2 FY 24 State of Our Org; Q2 FY 24 State of Our Org; Q2 FY 24 State of Our Org; Q2 FY 24 State of Our Org
+Formatting Macros,warning,2,2,How Do I Freeze or Unfreeze My Tally Card?; How Do I Freeze or Unfreeze My Tally Card?
+Formatting Macros,note,2,2,Q2 FY 24 State of Our Org; Project Charter - Employee Onboarding
+Interactive Macros,expand,97,2,Secure Controls Framework (SCF); Bitbucket; Bitbucket; Bitbucket; Bitbucket
+Navigation Macros,toc,19,3,Q2 FY 24 State of Our Org; Brainstorming; FY24 Q4 Quarterly Business Review - Mobile Portfolio; Security Alert Assessment Guide; Bitbucket
+Navigation Macros,livesearch,5,5,Tally Customer Knowledge; Team homepage; Tally KB; Security Operations; One Atlassian
+Navigation Macros,children,2,1,Corporate Planning; Goals Drafting Workshops
+Reporting Macros,status,89,9,AI is the Product; AI is the Product; Team homepage; Team homepage; Team homepage
+Reporting Macros,details,7,7,First engagement checklist; DACI: Enablement Experience Approach; Template - Decision documentation; Template - Decision documentation; Template - Decision documentation
+Reporting Macros,contributors,6,6,atlassian template; atlassian template; atlassian template; atlassian template; atlassian template
+Reporting Macros,jira,4,2,FY24 Q4 Quarterly Business Review - Mobile Portfolio; Project Charter - Employee Onboarding; Project Charter - Employee Onboarding; Project Charter - Employee Onboarding
+Reporting Macros,roadmap,1,1,Employee Onboarding
+Third-Party / Custom Macros,listlabels,3,3,Tally Customer Knowledge; Tally KB; One Atlassian
+Third-Party / Custom Macros,gadget,2,1,hi this is yash; hi this is yash
+Third-Party / Custom Macros,create-from-template,1,1,Goals Drafting Workshops
+Third-Party / Custom Macros,portfolioforjiraplan,1,1,FY24 Q4 Quarterly Business Review - Mobile Portfolio
