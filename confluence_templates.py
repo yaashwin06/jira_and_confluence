@@ -35,6 +35,7 @@ def template_project_overview(**kw):
 </h2><hr/>
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 50%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#ff8f73">Milestones</th>
         <th data-highlight-colour = "#ff8f73">Deliverables</th>
     </tr>
@@ -57,11 +58,36 @@ def template_project_overview(**kw):
     <tr>
         <td style="data-highlight-colour:#F4F5F7">  </td>
         <td style="data-highlight-colour:#F4F5F7">  </td>
+=======
+        <th style="background-color:red; color:white;">Milestones</th>
+        <th style="background-color:red; color:white;">Deliverables</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 <hr/>
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 50%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Service</th>
         <th data-highlight-colour = "#4C9AFF"">Milestone</th>
         <th data-highlight-colour = "#4C9AFF"">Roles Required Capacity Dedicated</th>
@@ -96,6 +122,42 @@ def template_project_overview(**kw):
         <td style="data-highlight-colour:#F4F5F7">  </td>
         <td style="data-highlight-colour:#F4F5F7">  </td>
         <td style="data-highlight-colour:#F4F5F7">  </td>
+=======
+        <th style="background-color:black; color:white;">Service</th>
+        <th style="background-color:black; color:white;">Milestone</th>
+        <th style="background-color:black; color:white;">Roles Required Capacity Dedicated</th>
+        <th style="background-color:black; color:white;">Duration</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+    </tr>
+    <tr>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+        <td style="background-color:grey">  </td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -107,6 +169,7 @@ def template_project_team(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 70%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Name</th>
         <th data-highlight-colour = "#4C9AFF"">Organization</th>
         <th data-highlight-colour = "#4C9AFF"">Role</th>
@@ -147,6 +210,48 @@ def template_project_team(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Name</th>
+        <th style="background-color:black; color:white;">Organization</th>
+        <th style="background-color:black; color:white;">Role</th>
+        <th style="background-color:black; color:white;">Email</th>
+        <th style="background-color:black; color:white;">TimeZone</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -159,6 +264,7 @@ def template_access_requirement(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 80%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF">ITEMS</th>
         <th data-highlight-colour = "#4C9AFF"">A1</th>
         <th data-highlight-colour = "#4C9AFF"">A2</th>
@@ -173,6 +279,22 @@ def template_access_requirement(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">ITEMS</th>
+        <th style="background-color:black; color:white;">A1</th>
+        <th style="background-color:black; color:white;">A2</th>
+        <th style="background-color:black; color:white;">A3</th>
+        <th style="background-color:black; color:white;">A4</th>
+        <th style="background-color:black; color:white;">NOTES</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;">ORGANIZATION ACCESS</td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -184,6 +306,7 @@ def template_jira_project(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Project Name</th>
         <th data-highlight-colour = "#4C9AFF"">Project Key</th>
         <th data-highlight-colour = "#4C9AFF"">Project Type</th>
@@ -222,6 +345,46 @@ def template_jira_project(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Project Name</th>
+        <th style="background-color:black; color:white;">Project Key</th>
+        <th style="background-color:black; color:white;">Project Type</th>
+        <th style="background-color:black; color:white;">Project Lead</th>
+        <th style="background-color:black; color:white;">Last Issue Updated</th>
+        <th style="background-color:black; color:white;">Issue Count</th>
+        <th style="background-color:black; color:white;">Keep/Discard</th>
+        <th style="background-color:black; color:white;">Comment</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -234,6 +397,7 @@ def template_high_level_project_tracker(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Milestones & Tasks</th>
         <th data-highlight-colour = "#4C9AFF"">% Complete</th>
         <th data-highlight-colour = "#4C9AFF"">Target Start Date</th>
@@ -277,6 +441,51 @@ def template_high_level_project_tracker(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Milestones & Tasks</th>
+        <th style="background-color:black; color:white;">% Complete</th>
+        <th style="background-color:black; color:white;">Target Start Date</th>
+        <th style="background-color:black; color:white;">Target End Date</th>
+        <th style="background-color:black; color:white;">Status</th>
+        <th style="background-color:black; color:white;">Owning Resource Name(s)</th>
+        <th style="background-color:black; color:white;">Comments</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -288,6 +497,7 @@ def template_environment_details(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 60%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Application</th>
         <th data-highlight-colour = "#4C9AFF"">Jira</th>
         <th data-highlight-colour = "#4C9AFF"">Confluence</th>
@@ -306,6 +516,26 @@ def template_environment_details(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Application</th>
+        <th style="background-color:black; color:white;">Jira</th>
+        <th style="background-color:black; color:white;">Confluence</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -320,6 +550,7 @@ def template_roadmap(**kw):
 <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 12px;">
     <table border="1" cellspacing="0" cellpadding="5">
     <tr>
+<<<<<<< HEAD
         <th colspan="4" data-highlight-colour = "#4C9AFF"">Jan</th>
         <th colspan="4" data-highlight-colour = "#4C9AFF"">Feb</th>
         <th colspan="4" data-highlight-colour = "#4C9AFF"">Mar</th>
@@ -391,6 +622,79 @@ def template_roadmap(**kw):
         <td data-highlight-colour = "#F4F5F7">Week2</td>
         <td data-highlight-colour = "#F4F5F7">Week3</td>
         <td data-highlight-colour = "#F4F5F7">Week4</td>
+=======
+        <th colspan="4" style="background-color:black; color:white;">Jan</th>
+        <th colspan="4" style="background-color:black; color:white;">Feb</th>
+        <th colspan="4" style="background-color:black; color:white;">Mar</th>
+        <th colspan="4" style="background-color:black; color:white;">Apr</th>
+        <th colspan="4" style="background-color:black; color:white;">May</th>
+        <th colspan="4" style="background-color:black; color:white;">Jun</th>
+        <th colspan="4" style="background-color:black; color:white;">Jul</th>
+        <th colspan="4" style="background-color:black; color:white;">Aug</th>
+        <th colspan="4" style="background-color:black; color:white;">Sep</th>
+        <th colspan="4" style="background-color:black; color:white;">Oct</th>
+    </tr>
+    <tr>
+        <!-- January Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- February Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- March Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- April Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- May Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- June Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- July Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- August Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- September Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+
+        <!-- October Weeks -->
+        <td style="background-color:grey;">Week1</td>
+        <td style="background-color:grey;">Week2</td>
+        <td style="background-color:grey;">Week3</td>
+        <td style="background-color:grey;">Week4</td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 
@@ -400,6 +704,7 @@ def template_roadmap(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 70%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Action Description</th>
         <th data-highlight-colour = "#4C9AFF"">Estimate (h)</th>
     </tr>
@@ -414,6 +719,22 @@ def template_roadmap(**kw):
     <tr>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Action Description</th>
+        <th style="background-color:black; color:white;">Estimate (h)</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 
@@ -421,6 +742,7 @@ def template_roadmap(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 70%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Action Description</th>
         <th data-highlight-colour = "#4C9AFF"">Estimate (h)</th>
     </tr>
@@ -435,6 +757,22 @@ def template_roadmap(**kw):
     <tr>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Action Description</th>
+        <th style="background-color:black; color:white;">Estimate (h)</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -446,6 +784,7 @@ def template_confluence_spaces(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Space ID</th>
         <th data-highlight-colour = "#4C9AFF"">Space Key</th>
         <th data-highlight-colour = "#4C9AFF"">Space Name</th>
@@ -484,6 +823,46 @@ def template_confluence_spaces(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Space ID</th>
+        <th style="background-color:black; color:white;">Space Key</th>
+        <th style="background-color:black; color:white;">Space Name</th>
+        <th style="background-color:black; color:white;">Creation Date</th>
+        <th style="background-color:black; color:white;">Last Updated Date</th>
+        <th style="background-color:black; color:white;">Space Type</th>
+        <th style="background-color:black; color:white;">Space Status</th>
+        <th style="background-color:black; color:white;">Keep/Discard</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -497,6 +876,7 @@ def template_jira_addons(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">S/No</th>
         <th data-highlight-colour = "#4C9AFF"">Application Name</th>
         <th data-highlight-colour = "#4C9AFF"">Vendor</th>
@@ -551,6 +931,62 @@ def template_jira_addons(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">S/No</th>
+        <th style="background-color:black; color:white;">Application Name</th>
+        <th style="background-color:black; color:white;">Vendor</th>
+        <th style="background-color:black; color:white;">Currently Enabled?</th>
+        <th style="background-color:black; color:white;">License Status</th>
+        <th style="background-color:black; color:white;">Available In Cloud</th>
+        <th style="background-color:black; color:white;">Should be migrated?</th>
+        <th style="background-color:black; color:white;">Marketplace Link</th>
+        <th style="background-color:black; color:white;">Migration Path</th>
+        <th style="background-color:black; color:white;">Usage</th>
+        <th style="background-color:black; color:white;">Business-Critical and Required in Cloud? Keep / Discard?</th>
+        <th style="background-color:black; color:white;">Notes & Recommendations - for Cloud</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -561,6 +997,7 @@ def template_jira_app_usage_stats(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Application Name</th>
         <th data-highlight-colour = "#4C9AFF"">URL</th>
         <th data-highlight-colour = "#4C9AFF"">Common Usage Data (20/02/2025)</th>
@@ -599,6 +1036,46 @@ def template_jira_app_usage_stats(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Application Name</th>
+        <th style="background-color:black; color:white;">URL</th>
+        <th style="background-color:black; color:white;">Common Usage Data (20/02/2025)</th>
+        <th style="background-color:black; color:white;">User Interactions (20/02/2025)</th>
+        <th style="background-color:black; color:white;">Custom Fields (20/02/2025)</th>
+        <th style="background-color:black; color:white;">Workflows (20/02/2025)</th>
+        <th style="background-color:black; color:white;">Dashboards (20/02/2025)</th>
+        <th style="background-color:black; color:white;">Comments / Recommendations</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -610,6 +1087,7 @@ def template_automation_rules_stats(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 30%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Project</th>
     </tr>
     <tr>
@@ -620,6 +1098,18 @@ def template_automation_rules_stats(**kw):
     </tr>
     <tr>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Project</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -633,6 +1123,7 @@ def template_confluence_addons(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">S/No</th>
         <th data-highlight-colour = "#4C9AFF"">Application Name</th>
         <th data-highlight-colour = "#4C9AFF"">Vendor</th>
@@ -688,6 +1179,63 @@ def template_confluence_addons(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">S/No</th>
+        <th style="background-color:black; color:white;">Application Name</th>
+        <th style="background-color:black; color:white;">Vendor</th>
+        <th style="background-color:black; color:white;">Currently Enabled?</th>
+        <th style="background-color:black; color:white;">License Status</th>
+        <th style="background-color:black; color:white;">Available In Cloud</th>
+        <th style="background-color:black; color:white;">Should be migrated?</th>
+        <th style="background-color:black; color:white;">Usage (pages)</th>
+        <th style="background-color:black; color:white;">Ability to Migrate? Migration Path</th>
+        <th style="background-color:black; color:white;">Marketplace Link</th>
+        <th style="background-color:black; color:white;">Views (last 60 days from 09/02/2024)</th>
+        <th style="background-color:black; color:white;">Business-Critical and Required in Cloud? Keep Notes & Recommendations - for Cloud / Discard?</th>
+        <th style="background-color:black; color:white;"></th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -701,6 +1249,7 @@ def template_confluence_macros_assessments(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 60%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">App Name</th>
         <th data-highlight-colour = "#4C9AFF"">App Total No of Pages Additional Analysis</th>
     </tr>
@@ -715,6 +1264,22 @@ def template_confluence_macros_assessments(**kw):
     <tr>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">App Name</th>
+        <th style="background-color:black; color:white;">App Total No of Pages Additional Analysis</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -726,6 +1291,7 @@ def template_scaffolding_nested_macro(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 50%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Space Key</th>
         <th data-highlight-colour = "#4C9AFF"">Page ID</th>
         <th data-highlight-colour = "#4C9AFF"">Message</th>
@@ -744,6 +1310,26 @@ def template_scaffolding_nested_macro(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Space Key</th>
+        <th style="background-color:black; color:white;">Page ID</th>
+        <th style="background-color:black; color:white;">Message</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -757,6 +1343,7 @@ def template_integrated_inventory(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 80%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Item</th>
         <th data-highlight-colour = "#4C9AFF"">Instance</th>
         <th data-highlight-colour = "#4C9AFF"">Type</th>
@@ -791,6 +1378,42 @@ def template_integrated_inventory(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Item</th>
+        <th style="background-color:black; color:white;">Instance</th>
+        <th style="background-color:black; color:white;">Type</th>
+        <th style="background-color:black; color:white;">Direction</th>
+        <th style="background-color:black; color:white;">Usage</th>
+        <th style="background-color:black; color:white;">Integration Owner</th>
+        <th style="background-color:black; color:white;">Notes</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -802,6 +1425,7 @@ def template_jira_users_assessments(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 70%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Username</th>
         <th data-highlight-colour = "#4C9AFF"">Display Name</th>
         <th data-highlight-colour = "#4C9AFF"">Current Email</th>
@@ -832,6 +1456,38 @@ def template_jira_users_assessments(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Username</th>
+        <th style="background-color:black; color:white;">Display Name</th>
+        <th style="background-color:black; color:white;">Current Email</th>
+        <th style="background-color:black; color:white;">New Email</th>
+        <th style="background-color:black; color:white;">Directory</th>
+        <th style="background-color:black; color:white;">Status</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -843,6 +1499,7 @@ def template_scaffolding_pages_restrictions(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">PAGE ID</th>
         <th data-highlight-colour = "#4C9AFF"">PAGE RESTRICTION TYPE</th>
         <th data-highlight-colour = "#4C9AFF"">USER'S PERMISSION TYPE</th>
@@ -889,6 +1546,54 @@ def template_scaffolding_pages_restrictions(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">PAGE ID</th>
+        <th style="background-color:black; color:white;">PAGE RESTRICTION TYPE</th>
+        <th style="background-color:black; color:white;">USER'S PERMISSION TYPE</th>
+        <th style="background-color:black; color:white;">ACCOUNT TYPE</th>
+        <th style="background-color:black; color:white;">USER OR GROUP NAME</th>
+        <th style="background-color:black; color:white;">CREATOR</th>
+        <th style="background-color:black; color:white;">CREATION DATE</th>
+        <th style="background-color:black; color:white;">LAST MODIFIER</th>
+        <th style="background-color:black; color:white;">LAST MODIFIED DATE</th>
+        <th style="background-color:black; color:white;">LINK</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -900,6 +1605,7 @@ def template_duplicate_emails(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 80%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Username</th>
         <th data-highlight-colour = "#4C9AFF"">Current Email</th>
         <th data-highlight-colour = "#4C9AFF"">New Email</th>
@@ -934,6 +1640,42 @@ def template_duplicate_emails(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Username</th>
+        <th style="background-color:black; color:white;">Current Email</th>
+        <th style="background-color:black; color:white;">New Email</th>
+        <th style="background-color:black; color:white;">Last Authenticated</th>
+        <th style="background-color:black; color:white;">Directory</th>
+        <th style="background-color:black; color:white;">During Migration</th>
+        <th style="background-color:black; color:white;">Contents Count</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -945,6 +1687,7 @@ def template_custom_fields(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 90%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Name</th>
         <th data-highlight-colour = "#4C9AFF"">Type</th>
         <th data-highlight-colour = "#4C9AFF"">Available Contexts</th>
@@ -975,6 +1718,38 @@ def template_custom_fields(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Name</th>
+        <th style="background-color:black; color:white;">Type</th>
+        <th style="background-color:black; color:white;">Available Contexts</th>
+        <th style="background-color:black; color:white;">Screens</th>
+        <th style="background-color:black; color:white;">Last Value Update</th>
+        <th style="background-color:black; color:white;">Issues</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -986,6 +1761,7 @@ def template_workflow(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 90%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Name</th>
         <th data-highlight-colour = "#4C9AFF"">Last Modified</th>
         <th data-highlight-colour = "#4C9AFF"">Last Modified By</th>
@@ -1016,6 +1792,38 @@ def template_workflow(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Name</th>
+        <th style="background-color:black; color:white;">Last Modified</th>
+        <th style="background-color:black; color:white;">Last Modified By</th>
+        <th style="background-color:black; color:white;">Assigned Schemes</th>
+        <th style="background-color:black; color:white;">Steps</th>
+        <th style="background-color:black; color:white;">Actions</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1027,6 +1835,7 @@ def template_permission_scheme_in_server(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 60%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Name</th>
         <th data-highlight-colour = "#4C9AFF"">Projects</th>
         <th data-highlight-colour = "#4C9AFF"">Actions</th>
@@ -1045,6 +1854,26 @@ def template_permission_scheme_in_server(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Name</th>
+        <th style="background-color:black; color:white;">Projects</th>
+        <th style="background-color:black; color:white;">Actions</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1056,6 +1885,7 @@ def template_confluence_users_assessments(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 80%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Username</th>
         <th data-highlight-colour = "#4C9AFF"">Current Email</th>
         <th data-highlight-colour = "#4C9AFF"">New Email</th>
@@ -1086,6 +1916,38 @@ def template_confluence_users_assessments(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Username</th>
+        <th style="background-color:black; color:white;">Current Email</th>
+        <th style="background-color:black; color:white;">New Email</th>
+        <th style="background-color:black; color:white;">Last Authenticated</th>
+        <th style="background-color:black; color:white;">Directory</th>
+        <th style="background-color:black; color:white;">During Migration</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1097,6 +1959,7 @@ def template_advanced_roadmaps(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 50%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Program</th>
         <th data-highlight-colour = "#4C9AFF"">Plan</th>
     </tr>
@@ -1111,6 +1974,22 @@ def template_advanced_roadmaps(**kw):
     <tr>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Program</th>
+        <th style="background-color:black; color:white;">Plan</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1122,6 +2001,7 @@ def template_public_settings(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 50%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Projects Set to Anyone</th>
         <th data-highlight-colour = "#4C9AFF"">Name</th>
     </tr>
@@ -1136,6 +2016,22 @@ def template_public_settings(**kw):
     <tr>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Projects Set to Anyone</th>
+        <th style="background-color:black; color:white;">Name</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1149,6 +2045,7 @@ def template_test_runbook(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 90%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">       </th>
         <th data-highlight-colour = "#4C9AFF"">Product</th>
         <th data-highlight-colour = "#4C9AFF"">Status</th>
@@ -1187,6 +2084,46 @@ def template_test_runbook(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">       </th>
+        <th style="background-color:black; color:white;">Product</th>
+        <th style="background-color:black; color:white;">Status</th>
+        <th style="background-color:black; color:white;">Start Date</th>
+        <th style="background-color:black; color:white;">End Date</th>
+        <th style="background-color:black; color:white;">Duration (mins)</th>
+        <th style="background-color:black; color:white;">Responsibility</th>
+        <th style="background-color:black; color:white;">Comments</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;">Week of Migration</td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1198,6 +2135,7 @@ def template_prod_runbook_jira(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 90%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">     </th>
         <th data-highlight-colour = "#4C9AFF"">Status</th>
         <th data-highlight-colour = "#4C9AFF"">Start Date</th>
@@ -1232,6 +2170,42 @@ def template_prod_runbook_jira(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">     </th>
+        <th style="background-color:black; color:white;">Status</th>
+        <th style="background-color:black; color:white;">Start Date</th>
+        <th style="background-color:black; color:white;">End Date</th>
+        <th style="background-color:black; color:white;">Duration (mins)</th>
+        <th style="background-color:black; color:white;">Responsibility</th>
+        <th style="background-color:black; color:white;">Comments</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;">Week of Migration</td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1244,6 +2218,7 @@ def template_prod_runbook_confluence(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 90%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">     </th>
         <th data-highlight-colour = "#4C9AFF"">Status</th>
         <th data-highlight-colour = "#4C9AFF"">Start Date</th>
@@ -1278,6 +2253,42 @@ def template_prod_runbook_confluence(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">     </th>
+        <th style="background-color:black; color:white;">Status</th>
+        <th style="background-color:black; color:white;">Start Date</th>
+        <th style="background-color:black; color:white;">End Date</th>
+        <th style="background-color:black; color:white;">Duration (mins)</th>
+        <th style="background-color:black; color:white;">Responsibility</th>
+        <th style="background-color:black; color:white;">Comments</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;">Prod Runbook Confluence</td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1296,6 +2307,7 @@ def template_atlassian_tickets(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 80%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Ticket Raised</th>
         <th data-highlight-colour = "#4C9AFF"">Description</th>
         <th data-highlight-colour = "#4C9AFF"">URL</th>
@@ -1318,6 +2330,30 @@ def template_atlassian_tickets(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Ticket Raised</th>
+        <th style="background-color:black; color:white;">Description</th>
+        <th style="background-color:black; color:white;">URL</th>
+        <th style="background-color:black; color:white;">Status</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """
@@ -1331,6 +2367,7 @@ def template_test_plan(**kw):
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 90%;">
     <tr>
+<<<<<<< HEAD
         <th data-highlight-colour = "#4C9AFF"">Test Case</th>
         <th data-highlight-colour = "#4C9AFF"">Description</th>
         <th data-highlight-colour = "#4C9AFF"">Area</th>
@@ -1361,6 +2398,38 @@ def template_test_plan(**kw):
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
         <td data-highlight-colour = "#F4F5F7"></td>
+=======
+        <th style="background-color:black; color:white;">Test Case</th>
+        <th style="background-color:black; color:white;">Description</th>
+        <th style="background-color:black; color:white;">Area</th>
+        <th style="background-color:black; color:white;">Product</th>
+        <th style="background-color:black; color:white;">Status</th>
+        <th style="background-color:black; color:white;">Notes</th>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+    </tr>
+    <tr>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+        <td style="background-color:grey;"></td>
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
     </tr>
 </table>
 """

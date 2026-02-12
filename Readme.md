@@ -477,4 +477,8 @@ For issues or questions:
 **Version**: 1.0  
 **Last Updated**: 2025  
 **Author**: [Your Name/Organization]  
+<<<<<<< HEAD
 **Atlassian Platform**: Cloud
+=======
+**Atlassian Platform**: Cloud
+>>>>>>> ce3e876625446d2c7a072e600b8e166421f742b0
